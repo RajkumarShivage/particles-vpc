@@ -5,6 +5,8 @@ phases:
     commands:
       - yum install epel-release -y
       - yum install nodejs -y
+      - yum install gcc -y
+      - yum install make -y
   pre_build:
     commands:
       - npm install
