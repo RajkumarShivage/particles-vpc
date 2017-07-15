@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - yum install epel-release nodejs
+      - yum install epel-release nodejs -y
   pre_build:
     commands:
       - npm install
