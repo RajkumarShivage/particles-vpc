@@ -13,7 +13,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - make build
+      - ./node_modules/.bin/gulp condensation:build
+      - ./node_modules/.bin/gulp condensation:deploy
   post_build:
     commands:
       - echo Build completed on `date`
