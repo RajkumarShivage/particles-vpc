@@ -1,0 +1,8 @@
+version: 0.1
+phases:
+  install:
+    commands:
+      - yum install epel-release git nodejs
+  build:
+    commands:
+      - make build
